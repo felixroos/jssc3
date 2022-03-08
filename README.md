@@ -1,5 +1,28 @@
-jssc3
------
+# jssc3
+
+## Running locally
+
+After cloning:
+
+### 1. Init submodules
+
+```sh
+git submodule update --init
+```
+
+### 2. Start server
+
+```sh
+python3 py/http-server-cgi-cross-origin.py & open http://localhost:8000
+```
+
+### 3. Use
+
+1. set from ".stc" to ".js"
+2. press Boot
+3. select example and press play
+
+## original README
 
 [Js](https://developer.mozilla.org/en-US/docs/Web/JavaScript) bindings to the
 [SuperCollider](http://audiosynth.com/) real-time synthesiser.
@@ -24,7 +47,7 @@ Tested with:
 
 © [Rohan Drape](http://rohandrape.net/), 2021-2022, [Gpl](http://gnu.org/copyleft/)
 
-* * *
+---
 
 [Html](https://jssc3.rohandrape.net)
 [Video](https://rohandrape.net/?t=jssc3&e=md/video.md)
